@@ -1,0 +1,412 @@
+<!DOCTYPE html><html class="scroll-smooth" lang="es"><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>Portabilidad Entel Perú | Conserva tu número con hasta 50% de descuento</title>
+<!-- Fonts & Google Icons -->
+<link href="https://fonts.googleapis.com" rel="preconnect">
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          "colors": {
+            "inverse-surface": "#213050",
+            "outline": "#717781",
+            "on-primary-container": "#b4d4ff",
+            "primary-fixed-dim": "#a0c9ff",
+            "on-secondary": "#ffffff",
+            "on-tertiary-fixed": "#360f00",
+            "text-muted": "#64748B",
+            "on-error-container": "#93000a",
+            "primary": "#004477",
+            "surface": "#faf8ff",
+            "background": "#faf8ff",
+            "on-tertiary-container": "#ffc4ab",
+            "on-tertiary-fixed-variant": "#7c2e00",
+            "brand-navy-dark": "#0B1B3B",
+            "surface-tint": "#0e61a3",
+            "tertiary": "#752b00",
+            "secondary-fixed-dim": "#c4c7c9",
+            "on-tertiary": "#ffffff",
+            "outline-variant": "#c1c7d2",
+            "surface-bright": "#faf8ff",
+            "primary-container": "#005c9e",
+            "error-container": "#ffdad6",
+            "surface-container-low": "#f2f3ff",
+            "tertiary-container": "#9b3b00",
+            "inverse-on-surface": "#eef0ff",
+            "on-secondary-container": "#626567",
+            "on-secondary-fixed": "#191c1e",
+            "status-success": "#16A34A",
+            "accent-orange-hover": "#E55606",
+            "tertiary-fixed-dim": "#ffb596",
+            "surface-white": "#FFFFFF",
+            "on-background": "#0a1a3a",
+            "surface-container": "#e9edff",
+            "secondary-container": "#e0e3e5",
+            "on-primary-fixed": "#001c37",
+            "secondary-fixed": "#e0e3e5",
+            "on-secondary-fixed-variant": "#444749",
+            "status-error": "#DC2626",
+            "tertiary-fixed": "#ffdbcd",
+            "on-primary": "#ffffff",
+            "accent-orange-soft": "#FFF4ED",
+            "on-surface-variant": "#414750",
+            "surface-subtle": "#F1F5F9",
+            "border-subtle": "#E2E8F0",
+            "surface-container-high": "#e1e7ff",
+            "error": "#ba1a1a",
+            "primary-fixed": "#d2e4ff",
+            "on-surface": "#0a1a3a",
+            "inverse-primary": "#a0c9ff",
+            "surface-container-highest": "#d9e2ff",
+            "surface-dim": "#cdd9ff",
+            "on-primary-fixed-variant": "#00497f",
+            "secondary": "#5c5f61",
+            "surface-container-lowest": "#ffffff",
+            "on-error": "#ffffff",
+            "surface-variant": "#d9e2ff"
+          },
+          "borderRadius": {
+            "DEFAULT": "0.25rem",
+            "lg": "0.5rem",
+            "xl": "0.75rem",
+            "full": "9999px"
+          },
+          "spacing": {
+            "space-xl": "2.5rem",
+            "space-md": "1rem",
+            "space-sm": "0.5rem",
+            "space-lg": "1.5rem",
+            "space-xs": "0.25rem",
+            "margin-sm": "1rem",
+            "gutter": "1.5rem",
+            "gutter-sm": "1rem",
+            "margin": "2rem"
+          },
+          "fontFamily": {
+            "label-sm": ["Plus Jakarta Sans"],
+            "display-mobile": ["Plus Jakarta Sans"],
+            "label-lg": ["Plus Jakarta Sans"],
+            "display": ["Plus Jakarta Sans"],
+            "body-md": ["Plus Jakarta Sans"],
+            "body-lg": ["Plus Jakarta Sans"],
+            "headline-sm": ["Plus Jakarta Sans"],
+            "body-sm": ["Plus Jakarta Sans"],
+            "plan-price-lg": ["Plus Jakarta Sans"],
+            "headline-md": ["Plus Jakarta Sans"],
+            "label-md": ["Plus Jakarta Sans"],
+            "headline-lg": ["Plus Jakarta Sans"],
+            "headline-lg-mobile": ["Plus Jakarta Sans"]
+          },
+          "fontSize": {
+            "label-sm": ["12px", { "lineHeight": "16px", "letterSpacing": "0.02em", "fontWeight": "700" }],
+            "display-mobile": ["34px", { "lineHeight": "42px", "letterSpacing": "-0.015em", "fontWeight": "800" }],
+            "label-lg": ["16px", { "lineHeight": "24px", "letterSpacing": "0.01em", "fontWeight": "700" }],
+            "display": ["48px", { "lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "800" }],
+            "body-md": ["16px", { "lineHeight": "24px", "fontWeight": "400" }],
+            "body-lg": ["18px", { "lineHeight": "28px", "fontWeight": "400" }],
+            "headline-sm": ["20px", { "lineHeight": "28px", "fontWeight": "600" }],
+            "body-sm": ["14px", { "lineHeight": "20px", "fontWeight": "400" }],
+            "plan-price-lg": ["44px", { "lineHeight": "48px", "letterSpacing": "-0.03em", "fontWeight": "800" }],
+            "headline-md": ["24px", { "lineHeight": "32px", "letterSpacing": "-0.01em", "fontWeight": "700" }],
+            "label-md": ["14px", { "lineHeight": "20px", "fontWeight": "600" }],
+            "headline-lg": ["36px", { "lineHeight": "44px", "letterSpacing": "-0.015em", "fontWeight": "700" }],
+            "headline-lg-mobile": ["28px", { "lineHeight": "36px", "letterSpacing": "-0.01em", "fontWeight": "700" }]
+          }
+        }
+      }
+    }
+  </script>
+<style>
+    .material-symbols-outlined {
+      font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+      display: inline-block;
+      vertical-align: middle;
+      line-height: 1;
+    }
+    .custom-scrollbar::-webkit-scrollbar {
+      height: 6px;
+    }
+    .custom-scrollbar::-webkit-scrollbar-track {
+      background: #F1F5F9;
+      border-radius: 9999px;
+    }
+    .custom-scrollbar::-webkit-scrollbar-thumb {
+      background: #005C9E;
+      border-radius: 9999px;
+    }
+  </style>
+</head>
+<body class="bg-surface-white text-brand-navy-dark antialiased font-body-md min-h-screen flex flex-col selection:bg-primary-container selection:text-surface-white">
+<!-- =========================================================================
+       1. HEADER MÍNIMO (Sticky Header + Shared Component TopNavBar)
+       ========================================================================= -->
+<header class="docked full-width top-0 fixed z-50 bg-surface-white/95 backdrop-blur-md border-b border-border-subtle shadow-sm transition-all duration-300">
+<div class="flex items-center w-full px-4 md:px-8 max-w-7xl mx-auto h-16 justify-center gap-8">
+<!-- Logo Oficial Entel -->
+<a aria-label="Entel Perú Inicio" class="flex items-center gap-2" href="#planes">
+<img alt="Entel Logo" class="h-8 md:h-9 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBA_UW4qeFe-DJ_05_hbeVSjRipcx3Pd-4PqPPWmmO05nLo0AbbD0QVNeTuXoJgwUMYiV23xs6cVAr0hS5Jvohv7tJUEaqLdiFXxySzEU7ChHj2BYhnnAueW-p_8yZ8YTlOxuk5tAh1qAT8ylAEWc_RsaLAJ7rgcHKw0FOYqR2x6KpjVNyjXyD2_9zD6NNBjbYprPNKdbh000dMBXVAFXBD9rckAMHD1bNEDPA98uEKaZdZ3EgJRpRg">
+</a>
+<!-- Navegación y Acciones -->
+<div class="flex items-center gap-6">
+<!-- Único enlace externo permitido según directiva -->
+<a class="hidden sm:inline-flex text-primary font-bold font-label-md text-label-md hover:opacity-95 transition-all duration-200" href="https://api.whatsapp.com/send?phone=51995384733&amp;text=Hola,%20Deseo%20Informaci%C3%B3n%20para%20portarme%20a%20ENTEL" rel="noopener noreferrer" target="_blank">Portabilidad</a>
+<!-- Botón CTA Naranja Ancla -->
+<a class="inline-flex items-center justify-center bg-[#FF6A13] hover:bg-[#E55606] text-surface-white font-label-md text-label-md px-6 py-2.5 rounded-full shadow-sm hover:shadow-md active:scale-[0.98] transition-all duration-200" href="https://api.whatsapp.com/send?phone=51995384733&amp;text=Hola,%20Deseo%20Informaci%C3%B3n%20para%20portarme%20a%20ENTEL" target="_blank" rel="noopener noreferrer">
+          Quiero portarme
+        </a>
+</div>
+</div>
+</header>
+<!-- =========================================================================
+       2. HERO CON FORMULARIO DE PORTABILIDAD (#hero-form)
+       ========================================================================= -->
+<section class="relative pt-20 pb-8 md:pt-24 md:pb-12 bg-gradient-to-b from-[#F0F7FF] via-surface-white to-surface-white overflow-hidden" id="hero-form"><div class="absolute top-0 right-0 w-96 h-96 bg-primary-fixed/20 rounded-full blur-3xl pointer-events-none -mr-20 -mt-20"></div><div class="absolute bottom-10 left-0 w-80 h-80 bg-accent-orange-soft/40 rounded-full blur-3xl pointer-events-none -ml-20"></div><div class="max-w-7xl mx-auto px-4 md:px-8 relative z-10"><div class="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-8 items-center"><div class="lg:col-span-7 flex flex-col justify-center"><div class="inline-flex items-center gap-2 self-start bg-accent-orange-soft border border-[#FF6A13]/30 px-3.5 py-1 rounded-full mb-3"><span class="material-symbols-outlined text-[#FF6A13] text-[18px]">bolt</span><span class="text-tertiary-container font-label-sm text-label-sm">Compra 100% online · Delivery y Chip gratis</span></div><h1 class="text-brand-navy-dark font-headline-lg-mobile md:font-display text-headline-lg-mobile md:text-display tracking-tight mb-3">Cámbiate a Entel y <span class="text-primary-container">conserva tu número</span></h1><p class="text-text-muted font-body-lg text-body-lg mb-5 max-w-xl">Hasta 50% de descuento durante 12 meses con GB en Alta Velocidad al portarte con nosotros hoy mismo.</p><div class="relative rounded-2xl overflow-hidden shadow-lg border border-border-subtle max-w-xl group bg-surface-subtle"><img alt="Familia disfrutando de conectividad Entel" class="w-full h-56 sm:h-64 object-cover object-center group-hover:scale-105 transition-transform duration-500" src="https://i.postimg.cc/zXh5gk7M/Entel-Imagen-1.png"><div class="absolute bottom-3 left-3 bg-brand-navy-dark/90 backdrop-blur-sm px-3.5 py-1.5 rounded-xl text-surface-white flex items-center gap-2 border border-white/10"><span class="material-symbols-outlined text-[#16A34A] text-sm">signal_cellular_alt</span><span class="font-label-sm text-label-sm">Red 5G con mayor velocidad del Perú</span></div></div></div><div class="lg:col-span-5"><div class="bg-surface-white rounded-3xl p-6 border-2 border-primary-container/20 shadow-xl relative backdrop-blur-sm"><div class="mb-4"><h2 class="text-brand-navy-dark font-headline-md text-headline-md mb-1">Solicita tu portabilidad online</h2><p class="text-text-muted font-body-sm text-body-sm">Mantén tu número y un asesor te activará la promo en minutos.</p></div><form class="space-y-3" id="portabilidad-form"><div><label class="block text-brand-navy-dark font-label-md text-label-md mb-1" for="phone-input">Número de celular que quieres portar</label><div class="relative"><div class="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none text-text-muted"><span class="material-symbols-outlined text-[20px]">phone_iphone</span></div><input class="w-full h-12 pl-10 pr-4 bg-surface-white border border-border-subtle rounded-xl text-brand-navy-dark font-body-md focus:border-primary-container focus:ring-4 focus:ring-primary-container/15 transition-all outline-none" id="phone-input" maxlength="9" pattern="[0-9]{9}" placeholder="Ej. 987 654 321" required="" type="tel"></div></div><div><label class="block text-brand-navy-dark font-label-md text-label-md mb-1" for="operator-select">Operador actual</label><div class="relative"><select class="w-full h-12 px-4 bg-surface-white border border-border-subtle rounded-xl text-brand-navy-dark font-body-md focus:border-primary-container focus:ring-4 focus:ring-primary-container/15 transition-all outline-none appearance-none cursor-pointer" id="operator-select" required=""><option disabled="" selected="" value="">Selecciona tu operador actual</option><option value="movistar">Movistar</option><option value="claro">Claro</option><option value="bitel">Bitel</option><option value="otro">Otro</option></select><div class="absolute inset-y-0 right-0 pr-3.5 flex items-center pointer-events-none text-text-muted"><span class="material-symbols-outlined text-[20px]">expand_more</span></div></div></div><div><label class="block text-brand-navy-dark font-label-md text-label-md mb-1">¿Cuántas líneas?</label><div class="grid grid-cols-2 gap-3" id="line-selector-group"><label class="cursor-pointer border-2 rounded-xl p-2.5 flex flex-col items-center justify-center transition-all line-option-btn active-state border-border-subtle bg-surface-white" data-lines="1"><input checked="" class="sr-only" name="lines_count" type="radio" value="1"><span class="font-headline-sm text-brand-navy-dark font-bold">1 línea</span><span class="font-label-sm text-label-sm text-text-muted mt-0.5">Línea individual</span></label><label class="cursor-pointer border-2 hover:border-primary-container/50 rounded-xl p-2.5 flex flex-col items-center justify-center relative transition-all line-option-btn border-primary-container bg-[#F0F7FF]" data-lines="2"><span class="absolute -top-2.5 bg-[#FF6A13] text-surface-white text-[10px] font-bold px-2 py-0.5 rounded-full shadow-xs">En plan 39.95</span><input class="sr-only" name="lines_count" type="radio" value="2"><span class="font-headline-sm text-brand-navy-dark font-bold">2 líneas</span><span class="font-label-sm text-label-sm text-[#005C9E] font-semibold mt-0.5">La 2da línea paga 19.95</span></label></div></div><button class="w-full h-12 bg-[#FF6A13] hover:bg-[#E55606] text-surface-white font-label-lg text-label-lg rounded-full shadow-lg hover:shadow-xl active:scale-[0.98] transition-all duration-200 flex items-center justify-center gap-2 mt-1" id="submit-btn" type="submit" onclick="event.preventDefault(); const phone = document.getElementById('phone-input').value.trim(); const op = document.getElementById('operator-select').value; const linesChecked = document.querySelector('input[name=&quot;lines_count&quot;]:checked'); const lines = linesChecked ? linesChecked.value : '1'; if (!phone) { alert('Por favor ingresa tu número de celular.'); document.getElementById('phone-input').focus(); return false; } const msg = `Hola, quiero solicitar mi portabilidad a Entel. Mi número: ${phone}, Operador actual: ${op || 'No especificado'}, Líneas: ${lines}`; window.open(`https://api.whatsapp.com/send?phone=51995384733&amp;text=${encodeURIComponent(msg)}`, '_blank');"><span class="">Quiero que me contacten</span><span class="material-symbols-outlined text-[20px]">arrow_forward</span></button></form><div class="hidden mt-3 p-3 bg-[#F0FDF4] border border-[#16A34A]/40 rounded-xl text-center" id="form-feedback"><div class="flex items-center justify-center gap-2 text-[#16A34A] font-bold mb-1"><span class="material-symbols-outlined">check_circle</span><span class="">¡Recibimos tu información!</span></div><p class="font-body-sm text-body-sm text-brand-navy-dark">Te llamaremos pronto a tu número para coordinar la entrega gratuita de tu chip.</p></div><p class="text-center font-body-sm text-text-muted text-[11px] mt-3 leading-relaxed">Al continuar aceptas la política de privacidad y el tratamiento de tus datos para fines de portabilidad.</p></div></div></div><div class="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-8 pt-6 border-t border-border-subtle/80"><div class="flex items-center gap-3.5 bg-surface-white p-3.5 rounded-2xl border border-border-subtle shadow-sm"><div class="w-10 h-10 rounded-xl bg-[#F0F7FF] flex items-center justify-center text-primary-container shrink-0"><span class="material-symbols-outlined text-[24px]">repeat_one</span></div><div><h3 class="font-label-md text-label-md text-brand-navy-dark">Conservas tu número</h3><p class="font-body-sm text-body-sm text-text-muted">Sin interrupción de servicio</p></div></div><div class="flex items-center gap-3.5 bg-surface-white p-3.5 rounded-2xl border border-border-subtle shadow-sm"><div class="w-10 h-10 rounded-xl bg-accent-orange-soft flex items-center justify-center text-[#FF6A13] shrink-0"><span class="material-symbols-outlined text-[24px]">local_shipping</span></div><div><h3 class="font-label-md text-label-md text-brand-navy-dark">Delivery y Chip gratis</h3><p class="font-body-sm text-body-sm text-text-muted">A domicilio en todo el Perú</p></div></div><div class="flex items-center gap-3.5 bg-surface-white p-3.5 rounded-2xl border border-border-subtle shadow-sm"><div class="w-10 h-10 rounded-xl bg-[#F0F7FF] flex items-center justify-center text-primary-container shrink-0"><span class="material-symbols-outlined text-[24px]">verified_user</span></div><div><h3 class="font-label-md text-label-md text-brand-navy-dark">Compra 100% online</h3><p class="font-body-sm text-body-sm text-text-muted">Trámite seguro y biométrico</p></div></div></div></div></section>
+<!-- =========================================================================
+       3. PLANES (4 Tarjetas Comparables)
+       ========================================================================= -->
+<section class="bg-surface-white border-t border-border-subtle py-8 md:py-12" id="planes">
+<div class="max-w-7xl mx-auto px-4 md:px-8">
+<!-- Encabezado de Sección y Toggle -->
+<div class="text-center max-w-2xl mx-auto mb-6">
+<h2 class="font-headline-lg-mobile md:font-headline-lg text-headline-lg-mobile md:text-headline-lg text-brand-navy-dark mb-2">Cámbiate a ENTEL y disfruta la mejor Cobertura y Señal del Perú.</h2>
+<p class="text-text-muted font-body-md text-body-md">Compara las mejores opciones con GB en Alta Velocidad, llamadas ilimitadas y la mejor cobertura en todo el Perú.</p>
+<!-- Segmented Controller Toggle: 'Línea nueva | Portabilidad' -->
+
+</div>
+<!-- Grid / Carrusel Horizontal en Móvil -->
+<div class="flex overflow-x-auto pb-6 sm:pb-0 md:grid md:grid-cols-2 lg:grid-cols-4 gap-6 custom-scrollbar snap-x snap-mandatory">
+<!-- Tarjeta 1: Plan Power 29.90 -->
+<div class="min-w-[285px] sm:min-w-0 snap-center bg-surface-white rounded-3xl p-5 border border-border-subtle flex flex-col justify-between hover:shadow-lg transition-all duration-300"><div><div class="mb-3"><h3 class="font-headline-sm text-headline-sm text-brand-navy-dark">Plan Power 29.90</h3></div><div class="mb-4 pb-3 border-b border-border-subtle"><div class="flex items-baseline"><span class="text-brand-navy-dark font-headline-md mr-1">S/</span><span class="text-brand-navy-dark font-plan-price-lg text-plan-price-lg leading-none">29.90</span><span class="text-text-muted font-body-sm text-body-sm ml-1.5">/mes</span></div><p class="font-body-sm text-[12px] text-text-muted mt-0.5">Precio regular fijo</p></div><ul class="space-y-2.5 mb-5"><li class="flex items-start gap-2.5"><div class="w-5 h-5 rounded-full bg-[#F0F7FF] text-[#005C9E] flex items-center justify-center shrink-0 mt-0.5"><span class="material-symbols-outlined text-[15px]">check</span></div><span class="font-body-sm text-body-sm text-brand-navy-dark"><strong class="font-bold">30 GB</strong> alta velocidad</span></li><li class="flex items-start gap-2.5"><div class="w-5 h-5 rounded-full bg-accent-orange-soft text-[#FF6A13] flex items-center justify-center shrink-0 mt-0.5"><span class="material-symbols-outlined text-[15px]">add</span></div><span class="font-body-sm text-body-sm text-brand-navy-dark"><strong class="font-bold">+ 30 GB extra</strong> x 6 meses</span></li><li class="flex items-start gap-2.5"><div class="w-5 h-5 rounded-full bg-[#F0F7FF] text-[#005C9E] flex items-center justify-center shrink-0 mt-0.5"><span class="material-symbols-outlined text-[15px]">check</span></div><span class="font-body-sm text-body-sm text-brand-navy-dark">Apps ilimitadas: WhatsApp y Waze</span></li><li class="flex items-start gap-2.5"><div class="w-5 h-5 rounded-full bg-[#F0F7FF] text-[#005C9E] flex items-center justify-center shrink-0 mt-0.5"><span class="material-symbols-outlined text-[15px]">check</span></div><span class="font-body-sm text-body-sm text-brand-navy-dark">Llamadas ilimitadas a Perú, EEUU, Chile y Canada</span></li><li class="flex items-start gap-2.5"><div class="w-5 h-5 rounded-full bg-[#F0F7FF] text-[#005C9E] flex items-center justify-center shrink-0 mt-0.5"><span class="material-symbols-outlined text-[15px]">check</span></div><span class="font-body-sm text-body-sm text-brand-navy-dark">500 SMS nacionales</span></li></ul></div><a class="w-full py-2.5 bg-[#FF6A13] hover:bg-[#E55606] text-surface-white font-label-md text-label-md rounded-full text-center shadow-sm active:scale-[0.98] transition-all" href="https://api.whatsapp.com/send?phone=51995384733&amp;text=Hola,%20Deseo%20Informaci%C3%B3n%20para%20portarme%20a%20ENTEL%20al%20plan%2029.90" target="_blank" rel="noopener noreferrer">Lo quiero</a></div>
+<!-- Tarjeta 2: Plan Power 49.90 -->
+<div class="min-w-[285px] sm:min-w-0 snap-center bg-surface-white rounded-3xl p-5 border border-border-subtle flex flex-col justify-between hover:shadow-lg transition-all duration-300"><div><div class="mb-3"><h3 class="font-headline-sm text-headline-sm text-brand-navy-dark">Plan Power 69.90</h3></div><div class="mb-4 pb-3 border-b border-border-subtle"><div class="flex items-baseline"><span class="text-brand-navy-dark font-headline-md mr-1">S/</span><span class="text-brand-navy-dark font-plan-price-lg text-plan-price-lg leading-none">34.95</span><span class="text-text-muted font-body-sm text-body-sm ml-1.5">/mes</span></div><p class="font-body-sm text-[12px] text-text-muted mt-0.5">Por 12 meses</p></div><ul class="space-y-2.5 mb-5"><li class="flex items-start gap-2.5"><div class="w-5 h-5 rounded-full bg-[#F0F7FF] text-[#005C9E] flex items-center justify-center shrink-0 mt-0.5"><span class="material-symbols-outlined text-[15px]">check</span></div><span class="font-body-sm text-body-sm text-brand-navy-dark"><strong class="font-bold">250 GB</strong> alta velocidad</span></li><li class="flex items-start gap-2.5"><div class="w-5 h-5 rounded-full bg-accent-orange-soft text-[#FF6A13] flex items-center justify-center shrink-0 mt-0.5"><span class="material-symbols-outlined text-[15px]">add</span></div><span class="font-body-sm text-body-sm text-brand-navy-dark"><strong class="font-bold">+ 50 GB extra</strong> desde el 7mo mes</span></li><li class="flex items-start gap-2.5"><div class="w-5 h-5 rounded-full bg-[#F0F7FF] text-[#005C9E] flex items-center justify-center shrink-0 mt-0.5"><span class="material-symbols-outlined text-[15px]">check</span></div><span class="font-body-sm text-body-sm text-brand-navy-dark">Apps ilimitadas (RRSS y música)</span></li><li class="flex items-start gap-2.5"><div class="w-5 h-5 rounded-full bg-[#F0F7FF] text-[#005C9E] flex items-center justify-center shrink-0 mt-0.5"><span class="material-symbols-outlined text-[15px]">check</span></div><span class="font-body-sm text-body-sm text-brand-navy-dark">Llamadas ilimitadas a Perú, EEUU, Chile y Canada</span></li><li class="flex items-start gap-2.5"><div class="w-5 h-5 rounded-full bg-[#F0F7FF] text-[#005C9E] flex items-center justify-center shrink-0 mt-0.5"><span class="material-symbols-outlined text-[15px]">check</span></div><span class="font-body-sm text-body-sm text-brand-navy-dark">Roaming internacional 3.5 GB</span></li></ul></div><a class="w-full py-2.5 bg-[#FF6A13] hover:bg-[#E55606] text-surface-white font-label-md text-label-md rounded-full text-center shadow-sm active:scale-[0.98] transition-all" href="https://api.whatsapp.com/send?phone=51995384733&amp;text=Hola,%20Deseo%20Informaci%C3%B3n%20para%20portarme%20a%20ENTEL%20al%20plan%2034.95" target="_blank" rel="noopener noreferrer">Lo quiero</a></div>
+<!-- Tarjeta 3: Plan Power Ilim 79.90 SD (DESTACADA: Marco Naranja y Badge 'Más elegido') -->
+<div class="min-w-[285px] sm:min-w-0 snap-center bg-surface-white rounded-3xl p-5 border-2 border-[#FF6A13] shadow-xl relative flex flex-col justify-between transform md:-translate-y-2"><div><div class="mb-3 pt-1"><h3 class="font-headline-sm text-headline-sm text-brand-navy-dark font-extrabold">Plan Power 79.90</h3></div><div class="mb-4 pb-3 border-b border-border-subtle"><div class="flex items-baseline"><span class="text-[#FF6A13] font-headline-md mr-1 font-bold">S/</span><span class="text-[#FF6A13] font-plan-price-lg text-plan-price-lg leading-none font-extrabold">39.95</span><span class="text-text-muted font-body-sm text-body-sm ml-1.5">/mes</span></div><p class="font-body-sm text-[12px] text-text-muted mt-0.5">Por 12 meses</p></div><ul class="space-y-2.5 mb-5"><li class="flex items-start gap-2.5"><div class="w-5 h-5 rounded-full bg-[#F0F7FF] text-[#005C9E] flex items-center justify-center shrink-0 mt-0.5"><span class="material-symbols-outlined text-[15px]">all_inclusive</span></div><span class="font-body-sm text-body-sm text-brand-navy-dark"><strong class="font-bold">Todo ilimitado:</strong> GB alta velocidad, llamadas y SMS</span></li><li class="flex items-start gap-2.5"><div class="w-5 h-5 rounded-full bg-accent-orange-soft text-[#FF6A13] flex items-center justify-center shrink-0 mt-0.5"><span class="material-symbols-outlined text-[15px]">check</span></div><span class="font-body-sm text-body-sm text-brand-navy-dark font-bold">Pagas solo 19.95 por tus Líneas Adicionales</span></li><li class="flex items-start gap-2.5"><div class="w-5 h-5 rounded-full bg-[#F0F7FF] text-[#005C9E] flex items-center justify-center shrink-0 mt-0.5"><span class="material-symbols-outlined text-[15px]">check</span></div><span class="font-body-sm text-body-sm text-brand-navy-dark">Apps ilimitadas (RRSS y música)</span></li><li class="flex items-start gap-2.5"><div class="w-5 h-5 rounded-full bg-[#F0F7FF] text-[#005C9E] flex items-center justify-center shrink-0 mt-0.5"><span class="material-symbols-outlined text-[15px]">check</span></div><span class="font-body-sm text-body-sm text-brand-navy-dark">Llamadas ilimitadas a Perú, EEUU, Chile y Canada</span></li><li class="flex items-start gap-2.5"><div class="w-5 h-5 rounded-full bg-[#F0F7FF] text-[#005C9E] flex items-center justify-center shrink-0 mt-0.5"><span class="material-symbols-outlined text-[15px]">check</span></div><span class="font-body-sm text-body-sm text-brand-navy-dark">Roaming internacional 5 GB</span></li></ul></div><a class="w-full py-3 bg-[#FF6A13] hover:bg-[#E55606] text-surface-white font-label-md text-label-md rounded-full text-center shadow-md hover:shadow-lg active:scale-[0.98] transition-all font-bold" href="https://api.whatsapp.com/send?phone=51995384733&amp;text=Hola,%20Deseo%20Información%20para%20portarme%20a%20ENTEL%20al%20plan%2039.95" target="_blank" rel="noopener noreferrer">Lo quiero</a></div>
+<!-- Tarjeta 4: Plan Power Ilim 99.90 SD -->
+<div class="min-w-[285px] sm:min-w-0 snap-center bg-surface-white rounded-3xl p-5 border border-border-subtle flex flex-col justify-between hover:shadow-lg transition-all duration-300"><div><div class="mb-3"><h3 class="font-headline-sm text-headline-sm text-brand-navy-dark">Plan Power 89.90</h3></div><div class="mb-4 pb-3 border-b border-border-subtle"><div class="flex items-baseline"><span class="text-brand-navy-dark font-headline-md mr-1">S/</span><span class="text-brand-navy-dark font-plan-price-lg text-plan-price-lg leading-none">44.95</span><span class="text-text-muted font-body-sm text-body-sm ml-1.5">/mes</span></div><p class="font-body-sm text-[12px] text-text-muted mt-0.5">Por 12 meses</p></div><ul class="space-y-2.5 mb-5"><li class="flex items-start gap-2.5"><div class="w-5 h-5 rounded-full bg-[#F0F7FF] text-[#005C9E] flex items-center justify-center shrink-0 mt-0.5"><span class="material-symbols-outlined text-[15px]">all_inclusive</span></div><span class="font-body-sm text-body-sm text-brand-navy-dark"><strong class="font-bold">Todo ilimitado:</strong> GB alta velocidad, llamadas y SMS</span></li><li class="flex items-start gap-2.5"><div class="w-5 h-5 rounded-full bg-[#F0F7FF] text-[#005C9E] flex items-center justify-center shrink-0 mt-0.5"><span class="material-symbols-outlined text-[15px]">check</span></div><span class="font-body-sm text-body-sm text-brand-navy-dark font-bold">Pagas solo 19.95 por tus Líneas Adicionales</span></li><li class="flex items-start gap-2.5"><div class="w-5 h-5 rounded-full bg-[#F0F7FF] text-[#005C9E] flex items-center justify-center shrink-0 mt-0.5"><span class="material-symbols-outlined text-[15px]">check</span></div><span class="font-body-sm text-body-sm text-brand-navy-dark">Apps ilimitadas (RRSS y música)</span></li><li class="flex items-start gap-2.5"><div class="w-5 h-5 rounded-full bg-[#F0F7FF] text-[#005C9E] flex items-center justify-center shrink-0 mt-0.5"><span class="material-symbols-outlined text-[15px]">check</span></div><span class="font-body-sm text-body-sm text-brand-navy-dark">Llamadas ilimitadas a Perú, EEUU, Chile y Canadá</span></li><li class="flex items-start gap-2.5"><div class="w-5 h-5 rounded-full bg-[#F0F7FF] text-[#005C9E] flex items-center justify-center shrink-0 mt-0.5"><span class="material-symbols-outlined text-[15px]">check</span></div><span class="font-body-sm text-body-sm text-brand-navy-dark">Roaming internacional 6 GB</span></li></ul></div><a class="w-full py-2.5 bg-[#FF6A13] hover:bg-[#E55606] text-surface-white font-label-md text-label-md rounded-full text-center shadow-sm active:scale-[0.98] transition-all" href="https://api.whatsapp.com/send?phone=51995384733&amp;text=Hola,%20Deseo%20Información%20para%20portarme%20a%20ENTEL%20al%20plan%2044.95" target="_blank" rel="noopener noreferrer">Lo quiero</a></div>
+</div>
+<!-- Aviso legal solo texto -->
+<p class="text-center font-body-sm text-text-muted text-[13px] mt-4">
+        Sujeto a evaluación crediticia y condiciones.
+      </p>
+</div>
+</section>
+<!-- =========================================================================
+       4. CÓMO PORTARTE EN 3 PASOS + REQUISITOS
+       ========================================================================= -->
+<section class="py-8 md:py-12 bg-surface-subtle border-t border-border-subtle">
+<div class="max-w-7xl mx-auto px-4 md:px-8">
+<div class="text-center max-w-2xl mx-auto mb-8">
+<h2 class="font-headline-lg-mobile md:font-headline-lg text-headline-lg-mobile md:text-headline-lg text-brand-navy-dark mb-2">
+          Portarte es fácil y rápido
+        </h2>
+<p class="text-text-muted font-body-md text-body-md">Compara las mejores opciones con GB en Alta Velocidad, llamadas ilimitadas y la mejor cobertura en todo el Perú.</p>
+</div>
+<!-- 3 Pasos Numerados Horizontales Compactados -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8 relative">
+<!-- Paso 1 -->
+<div class="bg-surface-white p-5 rounded-3xl border border-border-subtle shadow-sm flex flex-col items-center text-center relative group hover:border-[#005C9E] transition-all">
+<div class="w-12 h-12 rounded-2xl bg-[#F0F7FF] text-primary-container font-headline-md flex items-center justify-center mb-3 font-bold shadow-inner">
+            1
+          </div>
+<div class="w-10 h-10 rounded-full bg-surface-subtle flex items-center justify-center text-primary-container mb-3">
+<span class="material-symbols-outlined text-[24px]">two_wheeler</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-brand-navy-dark mb-1">Envio del Chip Entel Gratis</h3>
+<p class="font-body-sm text-body-sm text-text-muted">Llevamos tu nuevo chip Entel GRATIS hasta la puerta de tu casa. Solo necesitas tener tu DNI a la mano.</p>
+</div>
+<!-- Paso 2 -->
+<div class="bg-surface-white p-5 rounded-3xl border border-border-subtle shadow-sm flex flex-col items-center text-center relative group hover:border-[#005C9E] transition-all">
+<div class="w-12 h-12 rounded-2xl bg-[#F0F7FF] text-primary-container font-headline-md flex items-center justify-center mb-3 font-bold shadow-inner">
+            2
+          </div>
+<div class="w-10 h-10 rounded-full bg-surface-subtle flex items-center justify-center text-primary-container mb-3">
+<span class="material-symbols-outlined text-[24px]">sms</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-brand-navy-dark mb-1">Valida tu número</h3>
+<p class="font-body-sm text-body-sm text-text-muted">
+            Recibirás un código seguro por SMS en tu celular para confirmar que eres el dueño de la línea.
+          </p>
+</div>
+<!-- Paso 3 -->
+<div class="bg-surface-white p-5 rounded-3xl border border-border-subtle shadow-sm flex flex-col items-center text-center relative group hover:border-[#005C9E] transition-all">
+<div class="w-12 h-12 rounded-2xl bg-[#F0F7FF] text-primary-container font-headline-md flex items-center justify-center mb-3 font-bold shadow-inner">
+            3
+          </div>
+<div class="w-10 h-10 rounded-full bg-surface-subtle flex items-center justify-center text-primary-container mb-3">
+<span class="material-symbols-outlined text-[24px]">sim_card</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-brand-navy-dark mb-1">Activas tu línea de Entel tú mismo</h3>
+<p class="font-body-sm text-body-sm text-text-muted">Coloca tu Chip de Entel a las 00:00 hrs. y amanece con tu mismo número en Entel.</p>
+</div>
+</div>
+<!-- Tarjeta Destacada Requisitos en Azul Marino Oscuro (#0B1B3B) Compactada -->
+<div class="bg-brand-navy-dark text-surface-white rounded-3xl p-6 md:p-8 shadow-xl border border-white/10 mb-8">
+<div class="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-5 border-b border-white/10 pb-4">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-xl bg-[#FF6A13] flex items-center justify-center text-surface-white shrink-0">
+<span class="material-symbols-outlined text-[24px]">assignment</span>
+</div>
+<div>
+<h3 class="font-headline-md text-headline-md text-surface-white">Antes de portarte, ten en cuenta</h3>
+<p class="text-white/70 font-body-sm text-body-sm">Requisitos básicos exigidos por la normativa de telecomunicaciones</p>
+</div>
+</div>
+</div>
+<!-- Lista de 6 checks de requisitos -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-5">
+<div class="flex items-start gap-2.5">
+<div class="w-5 h-5 rounded-full bg-white/15 text-[#FF6A13] flex items-center justify-center shrink-0 mt-0.5">
+<span class="material-symbols-outlined text-[15px]">check</span>
+</div>
+<p class="font-body-md text-body-md text-white/90">Debes ser el titular de la línea.</p>
+</div>
+<div class="flex items-start gap-2.5">
+<div class="w-5 h-5 rounded-full bg-white/15 text-[#FF6A13] flex items-center justify-center shrink-0 mt-0.5">
+<span class="material-symbols-outlined text-[15px]">check</span>
+</div>
+<p class="font-body-md text-body-md text-white/90">Sin deudas pendientes con tu operador actual.</p>
+</div>
+<div class="flex items-start gap-2.5">
+<div class="w-5 h-5 rounded-full bg-white/15 text-[#FF6A13] flex items-center justify-center shrink-0 mt-0.5">
+<span class="material-symbols-outlined text-[15px]">check</span>
+</div>
+<p class="font-body-md text-body-md text-white/90">Más de 30 días de servicio con tu operador.</p>
+</div>
+<div class="flex items-start gap-2.5">
+<div class="w-5 h-5 rounded-full bg-white/15 text-[#FF6A13] flex items-center justify-center shrink-0 mt-0.5">
+<span class="material-symbols-outlined text-[15px]">check</span>
+</div>
+<p class="font-body-md text-body-md text-white/90">Si eres prepago, tu línea pasará a postpago.</p>
+</div>
+<div class="flex items-start gap-2.5">
+<div class="w-5 h-5 rounded-full bg-white/15 text-[#FF6A13] flex items-center justify-center shrink-0 mt-0.5">
+<span class="material-symbols-outlined text-[15px]">check</span>
+</div>
+<p class="font-body-md text-body-md text-white/90">Ten tu equipo a la mano para el código de validación.</p>
+</div>
+<div class="flex items-start gap-2.5">
+<div class="w-5 h-5 rounded-full bg-white/15 text-[#FF6A13] flex items-center justify-center shrink-0 mt-0.5">
+<span class="material-symbols-outlined text-[15px]">check</span>
+</div>
+<p class="font-body-md text-body-md text-white/90">La entrega es solo al titular con validación biométrica de huella digital.</p>
+</div>
+</div>
+</div>
+<!-- Botón Naranja Grande Centrado -->
+<div class="text-center">
+<a class="inline-flex items-center justify-center bg-[#FF6A13] hover:bg-[#E55606] text-surface-white font-label-lg text-label-lg px-8 py-3 rounded-full shadow-lg hover:shadow-xl active:scale-[0.98] transition-all gap-2" href="https://api.whatsapp.com/send?phone=51995384733&amp;text=Hola,%20Deseo%20Informaci%C3%B3n%20para%20portar%20a%20ENTEL" rel="noopener noreferrer" target="_blank">
+<span class="">Empezar mi portabilidad</span>
+<span class="material-symbols-outlined">north_east</span>
+</a>
+</div>
+</div>
+</section>
+<!-- =========================================================================
+       5. POR QUÉ ELEGIR ENTEL (Beneficios)
+       ========================================================================= -->
+<section class="bg-surface-white border-t border-border-subtle py-8 md:py-12">
+<div class="max-w-7xl mx-auto px-4 md:px-8">
+<div class="text-center max-w-2xl mx-auto mb-6">
+<h2 class="font-headline-lg-mobile md:font-headline-lg text-headline-lg-mobile md:text-headline-lg text-brand-navy-dark mb-3">
+          Más beneficios por ser cliente Entel
+        </h2>
+<p class="text-text-muted font-body-md text-body-md">Compara las mejores opciones con GB en Alta Velocidad, llamadas ilimitadas y la mejor cobertura en todo el Perú.</p>
+</div>
+<!-- Cuadrícula Bento de 6 Tarjetas -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-6"><div class="p-5 bg-surface-white rounded-3xl border border-border-subtle hover:border-[#005C9E] shadow-sm hover:shadow-md transition-all duration-300 flex flex-col justify-between group"><div><div class="w-10 h-10 rounded-2xl bg-[#F0F7FF] text-[#005C9E] flex items-center justify-center mb-3 group-hover:bg-[#005C9E] group-hover:text-surface-white transition-colors"><span class="material-symbols-outlined text-[24px]">qr_code_scanner</span></div><h3 class="font-headline-sm text-headline-sm text-brand-navy-dark mb-1">eSIM</h3><p class="font-body-sm text-body-sm text-text-muted">Tu chip 100% digital al instante. Olvídate de los plásticos y activa tu línea en minutos desde tu celular compatible.</p></div><div class="mt-3 pt-3 border-t border-border-subtle/50 text-[12px] text-[#005C9E] font-semibold flex items-center gap-1">Activación inmediata sin esperas</div></div><div class="p-5 bg-surface-white rounded-3xl border border-border-subtle hover:border-[#005C9E] shadow-sm hover:shadow-md transition-all duration-300 flex flex-col justify-between group"><div><div class="w-10 h-10 rounded-2xl bg-[#F0F7FF] text-[#005C9E] flex items-center justify-center mb-3 group-hover:bg-[#005C9E] group-hover:text-surface-white transition-colors"><span class="material-symbols-outlined text-[24px]">satellite_alt</span></div><h3 class="font-headline-sm text-headline-sm text-brand-navy-dark mb-1">Conectividad Satelital D2C</h3><p class="font-body-sm text-body-sm text-text-muted">Señal y cobertura donde otros operadores no llegan. Conexión directa satélite-móvil para emergencias y zonas alejadas.</p></div><div class="mt-3 pt-3 border-t border-border-subtle/50 text-[12px] text-[#005C9E] font-semibold flex items-center gap-1">Tecnología Direct to Cell</div></div><div class="p-5 bg-surface-white rounded-3xl border border-border-subtle hover:border-[#005C9E] shadow-sm hover:shadow-md transition-all duration-300 flex flex-col justify-between group"><div><div class="w-10 h-10 rounded-2xl bg-accent-orange-soft text-[#FF6A13] flex items-center justify-center mb-3 group-hover:bg-[#FF6A13] group-hover:text-surface-white transition-colors"><span class="material-symbols-outlined text-[24px]">movie</span></div><h3 class="font-headline-sm text-headline-sm text-brand-navy-dark mb-1">2x1 en Cineplanet</h3><p class="font-body-sm text-body-sm text-text-muted">Entradas y combos exclusivos todas las semanas para que disfrutes de los mejores estrenos a mitad de precio.</p></div><div class="mt-3 pt-3 border-t border-border-subtle/50 text-[12px] text-[#FF6A13] font-semibold flex items-center gap-1">Canjeable desde la App Entel</div></div><div class="p-5 bg-surface-white rounded-3xl border border-border-subtle hover:border-[#005C9E] shadow-sm hover:shadow-md transition-all duration-300 flex flex-col justify-between group"><div><div class="w-10 h-10 rounded-2xl bg-accent-orange-soft text-[#FF6A13] flex items-center justify-center mb-3 group-hover:bg-[#FF6A13] group-hover:text-surface-white transition-colors"><span class="material-symbols-outlined text-[24px]">lunch_dining</span></div><h3 class="font-headline-sm text-headline-sm text-brand-navy-dark mb-1">2x1 en Bembos</h3><p class="font-body-sm text-body-sm text-text-muted">Descuentos y combos especiales en hamburguesas clásicas y especiales en locales o por delivery.</p></div><div class="mt-3 pt-3 border-t border-border-subtle/50 text-[12px] text-[#FF6A13] font-semibold flex items-center gap-1">Beneficio permanente clientes postpago</div></div><div class="p-5 bg-surface-white rounded-3xl border border-border-subtle hover:border-[#005C9E] shadow-sm hover:shadow-md transition-all duration-300 flex flex-col justify-between group"><div><div class="w-10 h-10 rounded-2xl bg-[#F0F7FF] text-[#005C9E] flex items-center justify-center mb-3 group-hover:bg-[#005C9E] group-hover:text-surface-white transition-colors"><span class="material-symbols-outlined text-[24px]">celebration</span></div><h3 class="font-headline-sm text-headline-sm text-brand-navy-dark mb-1">Jueves Entel</h3><p class="font-body-sm text-body-sm text-text-muted">Convenios, experiencias, promociones y sorteos exclusivos en gastronomía, entretenimiento y viajes cada jueves.</p></div><div class="mt-3 pt-3 border-t border-border-subtle/50 text-[12px] text-[#005C9E] font-semibold flex items-center gap-1">Nuevas sorpresas cada semana</div></div><div class="p-5 bg-surface-white rounded-3xl border border-border-subtle hover:border-[#005C9E] shadow-sm hover:shadow-md transition-all duration-300 flex flex-col justify-between group"><div><div class="w-10 h-10 rounded-2xl bg-accent-orange-soft text-[#FF6A13] flex items-center justify-center mb-3 group-hover:bg-[#FF6A13] group-hover:text-surface-white transition-colors"><span class="material-symbols-outlined text-[24px]">local_shipping</span></div><h3 class="font-headline-sm text-headline-sm text-brand-navy-dark mb-1">Delivery de Chip Gratis</h3><p class="font-body-sm text-body-sm text-text-muted">Recíbelo en tu casa o trabajo sin costo adicional con seguimiento de pedido en tiempo real y biometría segura.</p></div><div class="mt-3 pt-3 border-t border-border-subtle/50 text-[12px] text-[#FF6A13] font-semibold flex items-center gap-1">Envíos express en Lima y Provincias</div></div></div>
+<!-- Franja de Confianza (Azul sutil + 3 Métricas) -->
+
+</div>
+</section>
+<!-- =========================================================================
+       6. PREGUNTAS FRECUENTES + CTA FINAL + FOOTER
+       ========================================================================= -->
+
+<!-- =========================================================================
+       FOOTER SOBRIO CORPORATIVO (Shared Component Footer)
+       ========================================================================= -->
+<footer class="w-full mt-auto bg-brand-navy-dark border-t border-outline-variant/10 text-white py-3">
+<div class="max-w-7xl mx-auto px-4 md:px-8 flex flex-col items-center gap-6 text-center justify-center"><div class="w-full flex flex-col md:flex-row items-center justify-between gap-3 text-center md:text-left"><div class="flex items-center gap-2 shrink-0"><img alt="Entel Perú" class="h-5 w-auto opacity-80 filter brightness-200 contrast-125" src="https://i.postimg.cc/HnZ2W5c7/Entel-Imagen-2.png"><span class="text-white/90 text-[11px] font-semibold">| Perú</span></div><p class="text-white/70 text-[11px] leading-tight max-w-2xl text-center">Servicio de telecomunicaciones regulado por OSIPTEL. Imágenes y promociones referenciales sujetas a términos de portabilidad.</p><div class="flex items-center justify-center gap-2 shrink-0"><a aria-label="Facebook" class="w-7 h-7 rounded-full inline-flex items-center justify-center text-white/80 hover:text-white hover:bg-white/15 transition-all duration-200" href="https://www.facebook.com/profile.php?id=61593214214944" rel="noopener noreferrer" target="_blank"><svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"></path></svg></a><a aria-label="TikTok" class="w-7 h-7 rounded-full inline-flex items-center justify-center text-white/80 hover:text-white hover:bg-white/15 transition-all duration-200" href="https://www.tiktok.com/@portaentel_internetclaro" rel="noopener noreferrer" target="_blank"><svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-1.01-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.24 1.07-.14 1.61.24 1.64 1.82 2.89 3.5 2.76 1.51-.04 2.86-1.09 3.23-2.55.15-.55.2-1.13.19-1.7V.02h-.08z"></path></svg></a><a aria-label="YouTube" class="w-7 h-7 rounded-full inline-flex items-center justify-center text-white/80 hover:text-white hover:bg-white/15 transition-all duration-200" href="https://www.youtube.com/@EntelPortabilidadPeru" rel="noopener noreferrer" target="_blank"><svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"></path></svg></a></div></div></div>
+</footer>
+<!-- =========================================================================
+       BARRA INFERIOR FIJA PARA VIEWPORT MÓVIL
+       ========================================================================= -->
+<div class="fixed bottom-0 left-0 right-0 z-40 bg-surface-white/95 backdrop-blur-md p-3 border-t border-border-subtle shadow-[0_-8px_20px_rgba(11,27,59,0.08)] sm:hidden flex items-center justify-between gap-4">
+<div class="flex flex-col pl-2">
+<span class="text-xs text-text-muted font-body-sm">Portabilidad con</span>
+<span class="text-sm font-bold text-brand-navy-dark leading-tight">50% de Descuento</span>
+</div>
+<a class="flex-1 py-3 bg-[#FF6A13] hover:bg-[#E55606] text-surface-white text-center font-label-md text-label-md font-bold rounded-full shadow-md active:scale-95 transition-all" href="#hero-form">
+      Quiero portarme
+    </a>
+</div>
+<!-- Inline Vanilla JavaScript Micro-Interactions -->
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+      // Manejo del selector de líneas
+      const lineButtons = document.querySelectorAll('.line-option-btn');
+      lineButtons.forEach(btn => {
+        btn.addEventListener('click', () => {
+          lineButtons.forEach(b => {
+            b.classList.remove('border-primary-container', 'bg-[#F0F7FF]');
+            b.classList.add('border-border-subtle', 'bg-surface-white');
+          });
+          btn.classList.remove('border-border-subtle', 'bg-surface-white');
+          btn.classList.add('border-primary-container', 'bg-[#F0F7FF]');
+        });
+      });
+
+      // Manejo de feedback de formulario Hero
+      const heroForm = document.getElementById('portabilidad-form');
+      const formFeedback = document.getElementById('form-feedback');
+      const submitBtn = document.getElementById('submit-btn');
+
+      if (heroForm) {
+        heroForm.addEventListener('submit', (e) => {
+          e.preventDefault();
+          submitBtn.disabled = true;
+          submitBtn.classList.add('opacity-75');
+          submitBtn.innerHTML = `<span>Procesando...</span>`;
+
+          setTimeout(() => {
+            heroForm.reset();
+            submitBtn.classList.add('hidden');
+            formFeedback.classList.remove('hidden');
+          }, 800);
+        });
+      }
+
+      // Manejo de formulario final
+      const ctaFinalForm = document.getElementById('cta-final-form');
+      const ctaFeedback = document.getElementById('cta-feedback');
+
+      if (ctaFinalForm) {
+        ctaFinalForm.addEventListener('submit', (e) => {
+          e.preventDefault();
+          ctaFinalForm.reset();
+          ctaFeedback.classList.remove('hidden');
+          setTimeout(() => {
+            ctaFeedback.classList.add('hidden');
+          }, 4500);
+        });
+      }
+    });
+  </script>
+
+
+<div class="fixed bottom-20 md:bottom-6 right-6 z-50 flex items-center gap-3 group"><div class="hidden sm:flex items-center gap-2 bg-surface-white/95 backdrop-blur-md text-brand-navy-dark px-3.5 py-2 rounded-2xl shadow-lg border border-border-subtle group-hover:scale-105 transition-all duration-300 pointer-events-none"><span class="relative flex h-2.5 w-2.5"><span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#25D366] opacity-75"></span><span class="relative inline-flex rounded-full h-2.5 w-2.5 bg-[#25D366]"></span></span><span class="font-label-sm text-label-sm text-brand-navy-dark font-semibold whitespace-nowrap">¿Dudas? Chatea con un asesor</span></div><a aria-label="Contactar por WhatsApp" class="w-14 h-14 rounded-full bg-[#25D366] hover:bg-[#20ba59] text-white flex items-center justify-center shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105 active:scale-95 shrink-0" href="https://api.whatsapp.com/send?phone=51995384733&amp;text=Hola,%20Deseo%20Informaci%C3%B3n%20para%20portarme%20a%20ENTEL" rel="noopener noreferrer" target="_blank"><svg class="w-8 h-8 fill-current text-white" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"></path></svg></a></div>
+
+
+
+
+
+
+
+</body></html>
